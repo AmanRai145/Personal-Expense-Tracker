@@ -1,0 +1,102 @@
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main {
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center horizontally */
+            align-items: center;
+            height: 100vh;
+        }
+        .nav {
+            height: 50px;
+            background-color: blueviolet;
+            width: 100%;
+        }
+        .card {
+            height: 150px;
+            width: 200px;
+            background-color: cadetblue;
+            margin: 30px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;
+            flex-direction: column;
+            padding-left: 20px;
+        }
+        .r {
+            margin-top: 10px;
+        }
+        input {
+            margin-top: 10px;
+        }
+        button {
+            margin-top: 10px;
+        }
+        #histo{
+            height: 150px;
+            width: 200px;
+            background-color: cadetblue;
+            margin: 30px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;
+            flex-direction: column;
+            padding-left: 15px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: 
+            ;
+
+        }
+        #his{
+            background-color: red;
+            padding: 10px;
+        }
+        #hist{
+            background-color: blueviolet;
+            margin-top: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">Transaction App</div>
+        <div class="container">
+            <div class="card">
+                <div>Total Amount:</div>
+                <div class="r" id="totalAmount">$1000</div> 
+                <form>
+                
+                    <input type="number" id="amountToSubtract" placeholder="Enter amount">
+                    <input type="text" id="whometopay" placeholder="Enter ">
+                </form>
+                <button onclick="subtractAmount()">Subtract</button>
+            </div> 
+            <div id="histo">
+            <div id="his"> History</div>
+            <div id="hist">whome</div>   
+            </div>
+            
+       
+    </div>
+    <Script src="script.js"></Script>
+</body>
+</html>
